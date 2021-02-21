@@ -1,0 +1,94 @@
+.App {
+  /*Selecting the element with the class App*/
+  text-align: center; /*Aligning the text on the center*/
+}
+/*---------------------- Currency Converter---------------------------*/
+
+.converterContainer {
+  /*Selecting the element with the class converterContainer*/
+
+  background-color: rgb(238, 237, 237); /*Setting the background color*/
+  width: 400px; /*Setting the width*/
+  height: 300px; /*Setting the height*/
+  border: 1px solid black; /*Setting the border*/
+  margin: 20px auto; /*Setting the margin*/
+  display: flex; /*Setting the display*/
+  flex-direction: column; /*Setting the flex direction*/
+  align-items: center; /*Aligning the items on the center*/
+}
+.mainHeading {
+  /*Selecting the element with the class converterContainer*/
+  font-size: 20px; /*Setting the font size*/
+}
+
+.input {
+  /*Selecting the element with the class input*/
+  margin: 0; /*Setting the margin*/
+}
+
+.output {
+  /*Selecting the element with the class input*/
+  font-size: 20px; /*Setting the font size*/
+
+  width: 300px; /*Setting the width*/
+  margin: 10px; /*Setting the margin*/
+  border: 1px solid black; /*Setting the border*/
+}
+
+/*-------------------------------- Win Game ------------------------*/
+
+.Card {
+  /*Selecting the element with the class Card*/
+  background-color: lightgray; /*Setting the background color*/
+  width: 100px; /*Setting the width*/
+  height: 100px; /*Setting the height*/
+  margin: 20px; /*Setting the margin*/
+  border-radius: 5px; /*Setting the border radius*/
+  border: 1px solid black; /*Setting the border*/
+}
+
+.cardContainer {
+  /*Selecting the element with the class cardContainer*/
+  background-color: rgb(238, 237, 237); /*Setting the background color*/
+  display: flex; /*Setting the display*/
+  justify-content: center; /*aligning the items on the center*/
+  height: 200px; /*Setting the height*/
+}
+
+.buttonsContainer {
+  /*Selecting the element with the class buttonsContainer*/
+  display: flex; /*Setting the display*/
+  justify-content: center; /*aligning the items on the center*/
+  align-items: center; /*aligning the items on the center*/
+  height: 50px; /*Setting the height*/
+}
+
+.gameContainer {
+  /*Selecting the element with the class gameContainer*/
+  display: flex; /*Setting the display*/
+  flex-direction: column; /*Setting the flex direction*/
+  margin: auto; /*Setting the margin*/
+  width: 700px; /*Setting the width*/
+  background-color: rgb(238, 237, 237); /*Setting the background color*/
+  margin-top: 50px; /*Setting the margin top*/
+  border: 1px solid black; /*Setting the border*/
+}
+
+.quitBtn,
+.tryAgainBtn {
+  /*Selecting the elements with the classes quitBtn, tryAgainBtn */
+  margin: 10px; /*Setting the margin*/
+}
+
+.active {
+  /*Selecting the element with the class active*/
+  background-color: lime; /*Setting the background color*/
+  outline: none; /*Setting the outline*/
+  border: 1px solid black; /*Setting the border*/
+}
+
+.frontCard {
+  background-color: white;
+  height: 100px;
+  border-radius: 5px;
+}
